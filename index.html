@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Portoflio Page</title>
+        <title>Paweł Musiał | WEB Developer</title>
     
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/grid.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+    <link href="script/script.js"/>
+    <link href="img/fontello-8d30b045/"/>
     <!-- Nowo Dodane -->
    
 
@@ -16,19 +18,17 @@
 <nav>
 
         <ul class="main-nav">
-            <li><a href="#"><b>Home</b></a></li>
+            <li><a class="nav-1" href="#"><b>Home</b></a></li>
             <li><a href="#"><b>CV</b></a></li>
             <li><a href="#"><b>Technologie</b></a></li>
-
-    
         </ul>
     </nav>
-    
-    
         <div class="hero-text-box">
         <h1>Cześć jestem Paweł  Musiał.<br> Jestem programista Front-End.</h1>
-            <a class="btn btn-full" href="#">Poznaj mnie</a>
+            <p class="nav-button">Dowiedz się więcej</p>
+         
         </div>
+    </div>
     </header>
         
         <div class="row">
@@ -46,7 +46,7 @@
             </p>
         </section>
         </div>
-</div>
+
         <div class="row">
             <section id="skills">
                 <h3>Moje Umiejętności</h3>
@@ -88,7 +88,7 @@
                         <p>Dobra znajomość</p><br>
                 </div>
                 <div class="col span-4-of-4">
-                    <img class="skill-img" src="img/wordpress.png"/>
+                    <img class="skill-img" src="img/wordpress.png" />
                         <p><b>Wordpress</b></p><br>
                             <p>Dobra znajomość</p><br>
                 </div>
@@ -105,13 +105,82 @@
    
             </section>
         </div>
-        <div class="container">
+        <div class="projects">
+            <div class="row">
+                <div class="projekty">
         <h4>Moje Projekty</h4>
-        
-        
+            <div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="5terre.jpg" alt="Cinque Terre" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="forest.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="mountains.jpg">
+    <img src="mountains.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+                </div>
+            </div>
         </div>
- 
+            <div class="row">
+            <div class="contact">
         
+            <section class="form">
+                <h5>Kontakt</h5>
+                <p>Szukasz programisty? masz do mnie pytanie? skontaktuj się ze mną.</p><br>
+                <p>Czekam na twoją wiadomość!</p><br>
+                <p>pawelmusial1995@gmail.com</p> <br><br>
+                
+                <form>
+                        <fieldset>
+                        <legend>Formularz kontaktowy</legend>
+                            <div class="form1">
+                                <div class="form2">
+                                    <label>Imię</label>
+                                    <input type="text" placeholder ="Enter your name"><br>
+                                    <label>Nazwisko</label>
+                                    <input type="email" placeholder="Enter your e-mail adress"></div>
+                        <div class="show-area">
+                                <label>Wiadomość</label><br>
+                                    
+					<textarea rows="25" cols="50"></textarea>
+					
+					<br><br>
+					<input type="submit" value="Wyślij">
+                    <input type="reset" value="Wyczyść">
+                           </div>
+					           </div>
+                        </fieldset>
+                </form>
+            </section> 
+            </div>
+                </div>
+        <footer class="footer"> 
+        <div class="row">
+               <i class="icon-facebook-official"></i>
+           <h6><b>Paweł Musiał</b>  &copy;   2018 </h6> 
+            
+            </div>
+
+                </footer>
 </body>
 
 </html>
