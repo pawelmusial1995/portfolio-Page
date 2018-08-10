@@ -7,8 +7,10 @@
 .row {
     max-width: 1140px;
     margin: 0 auto;
-    
-    
+   
+}
+.container {
+    background-color: gray;
 }
 
 html {
@@ -39,7 +41,8 @@ header {
     
     float: right;
     list-style: none;
-    margin-top: 15;   
+    margin-top: 15; 
+    
 }   
 
 .main-nav a {
@@ -134,15 +137,7 @@ color: blue;
     
 }
 
-.skill-img p {
-display: inline-block;
-}
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    
-}
 
 .form {
     max-width: 1140px;
@@ -178,15 +173,23 @@ background-color:  #1b242f;
 
 .projects {
     background-color: #566e7b;
+    text-align: center;
 }
 
-/************
-* SCROLLBAR
-**********/
+.project-img {
+    height: 550px;
+   width: 1150px;
+    border: solid black 3px;
+    
+    
+}
 
-
-
-
+.project-about {
+    text-align: center;
+    float: right;
+    
+    
+}
 
 
    
